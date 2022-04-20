@@ -47,15 +47,14 @@
         color="primary"
         class="btn-block"
         id = "login-button-logincomponent"
-        (click)="onLoggedIn()"
-      >
+        (click)="onLoggedIn()">
         Log in
       </button>
 
       <hr />
       <br />
       <a routerLink="/signup">Don't have an account?  Create a new account</a><br>
-      <a href="#" class="forgot">Forgot Password?</a>
+      <a routerLink="/reset" class="forgot">Forgot Password?</a>  <!-- Creates forgot password link in login page -->
     </form>
   </mat-card>
 </div>

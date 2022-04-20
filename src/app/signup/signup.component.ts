@@ -36,6 +36,7 @@ export class SignupComponent implements OnInit {
     this.checkIfLoggedIn();
   }
 
+  // Runs on boot up
   checkIfLoggedIn() {
     this.loginService.checkLoginStatus().subscribe((res) => {
       if (res.status === 200 || res.status === 201){
