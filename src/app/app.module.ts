@@ -43,6 +43,11 @@ import { AdminFeatureComponent } from './admin-feature/admin-feature.component';
 import { UpdateBookComponent } from './update-book/update-book.component';
 import { FeaturedProductsComponent } from './featured-products/featured-products.component';
 import { NgxSlickJsModule } from 'ngx-slickjs';
+//part of Admin Sales Dashboard feature
+import { CardComponent } from './card/card.component';
+import { NavComponent } from './nav/nav.component';
+import { DashComponent } from './dash/dash.component';
+
 
 @NgModule({
   declarations: [
@@ -61,7 +66,10 @@ import { NgxSlickJsModule } from 'ngx-slickjs';
     SalesProductComponent,
     AdminFeatureComponent,
     UpdateBookComponent,
-    FeaturedProductsComponent
+    FeaturedProductsComponent,
+    NavComponent,
+    DashComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
