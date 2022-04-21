@@ -2,7 +2,6 @@ import { Component, Input, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SearchProducts } from 'SearchProduct';
-import { User } from 'User';
 import { Cart } from '../../../Cart';
 import { DisplayProductModalComponent } from '../display-product-modal/display-product-modal.component';
 import { LoginService } from '../login.service';

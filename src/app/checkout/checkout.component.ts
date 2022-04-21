@@ -4,6 +4,7 @@ import { Checkout } from 'Checkout';
 import { ShippingAddress } from 'ShippingAddress';
 import { CheckoutService } from '../checkout.service';
 import { LoginService } from '../login.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-checkout',

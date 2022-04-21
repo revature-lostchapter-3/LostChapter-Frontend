@@ -43,7 +43,7 @@ import { AdminFeatureComponent } from './admin-feature/admin-feature.component';
 import { UpdateBookComponent } from './update-book/update-book.component';
 import { FeaturedProductsComponent } from './featured-products/featured-products.component';
 import { NgxSlickJsModule } from 'ngx-slickjs';
-import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { TrackUserSearchesComponent } from './track-user-searches/track-user-searches.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +63,7 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
     AdminFeatureComponent,
     UpdateBookComponent,
     FeaturedProductsComponent,
-    ResetPasswordComponent
+    TrackUserSearchesComponent
   ],
   imports: [
     BrowserModule,
